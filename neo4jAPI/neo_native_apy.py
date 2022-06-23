@@ -270,6 +270,7 @@ class NeoApp:
         self.driver.close()
 
     def run_test_query(self):
+        print("testing")
         limit = 10
         cypher_query = f'''
         MATCH (n)
@@ -333,11 +334,11 @@ class NeoApp:
 
 
     def query(self, query, parameters=None, db=None):
-        assert self.__driver is not None, "Driver not initialized!"
+        assert self.driver is not None, "Driver not initialized!"
         session = None
         response = None
         try: 
-            session = self.__driver.session(database=db) if db is not None else self.__driver.session() 
+            session = self.driver.session(database=db) if db is not None else self.driver.session() 
             response = list(session.run(query, parameters))
         except Exception as e:
             print("Query failed:", e)

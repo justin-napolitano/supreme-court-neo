@@ -4,15 +4,19 @@ from pprint import pprint
 
 class neoAPI():
 
-    def __init__(self):
-        self.instantiate_neo_model_session()    
+    def __init__(self,uri):
+        self.instantiate_neo_model_session(uri)    
         
     
-    def instantiate_neo_model_session(self):
+    def instantiate_neo_model_session(self,uri):
         
         local = "bolt://neo4j:5995Oscar@10.0.0.37:7687"
         remote = "neo4j+s://7a92f171.databases.neo4j.io"
-        config.DATABASE_URL = remote
+        config.DATABASE_URL = uri
+
+    def standard_query():
+        results, meta = db.cypher_query(query, params)
+        people = [Person.inflate(row[0]) for row in results]
 
     def create_city_node(name):
         return City(name = name)

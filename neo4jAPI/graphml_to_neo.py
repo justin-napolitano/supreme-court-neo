@@ -1,7 +1,9 @@
 import glob
+from operator import ne
 import os
 import re
 from neo_native_apy import NeoApp
+import neoModelAPI
 
 def get_cwd():
     cwd = os.getcwd()
@@ -23,17 +25,19 @@ def instantiate_neo_application(uri,user,password):
     return application
 
 def upload_to_neo(neo_application,file_list):
-    test = file_list[0]
+    test = "https://raw.githubusercontent.com/justin-napolitano/supreme-court-neo/main/neo4jAPI/input/test.graphml"
+    
     query_call = "call apoc.import.graphml('{}')".format(test) 
     print(query_call)
-    #response = neo_application.query(query = query_call)
-    #print(response)
+    response = neo_application.query(query = query_call)
+    print(response)
 
 
 
 
 
-
+def instantiate_neo_model_api(uri):
+    return neoModelAPI.neoAPI(uri)
 
 def main():
     uri = "neo4j+s://7a92f171.databases.neo4j.io"
@@ -43,12 +47,19 @@ def main():
     input_directory = 'input'
     cwd = get_cwd()
     file_list = list_files(cwd, input_directory)
+    #neo_model_api = instantiate_neo_model_api(uri)
     neo_application=instantiate_neo_application(uri, user, password)
+    #print(type(neo_application.driver))
     upload_to_neo(neo_application,file_list)
     #print(file_list)
 
+
+
 if __name__ == "__main__":
     main()
+
+
+#    results, meta = db.cypher_query(query, params)
 
 
 
