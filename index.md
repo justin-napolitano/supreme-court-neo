@@ -21,6 +21,13 @@ seoSecondaryKeywords:
   - graph data ingestion
   - neomodel data modeling
 seoOptimized: true
+topicFamily: datascience
+topicFamilyConfidence: 0.9
+topicFamilyNotes: >-
+  The post focuses on data ingestion pipelines, ETL processes, data modeling for Neo4j graph
+  databases, and batch processing with Python, which closely aligns with the 'Datascience' family's
+  description of data analysis projects and ETL pipelines. While it involves API and development
+  environment elements, the core is managing and processing complex datasets.
 ---
 
 # supreme-court-neo: Technical Overview and Implementation Notes
@@ -94,3 +101,4 @@ A Docker Compose configuration provisions a local Neo4j instance and Flask app, 
 This project provides a foundational framework for Python-driven Neo4j graph database interaction, combining REST API access, data modeling, and ingestion pipelines. It is designed with modularity and extensibility in mind, suitable for projects requiring graph data management and batch processing capabilities.
 
 When returning to this codebase, focus first on the connection wrappers and data models, then explore the ingestion scripts and REST endpoints. Understanding the Neo4j session and transaction patterns is key to extending functionality reliably.
+
