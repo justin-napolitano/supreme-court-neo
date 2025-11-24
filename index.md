@@ -1,12 +1,27 @@
 ---
-slug: "github-supreme-court-neo"
-title: "supreme-court-neo"
-repo: "justin-napolitano/supreme-court-neo"
-githubUrl: "https://github.com/justin-napolitano/supreme-court-neo"
-generatedAt: "2025-11-23T09:42:39.538442Z"
-source: "github-auto"
+slug: github-supreme-court-neo
+title: Python Framework for Neo4j Graph Database with REST API and Data Ingestion
+repo: justin-napolitano/supreme-court-neo
+githubUrl: https://github.com/justin-napolitano/supreme-court-neo
+generatedAt: '2025-11-23T09:42:39.538442Z'
+source: github-auto
+summary: >-
+  Technical overview of a Python-based Neo4j integration including connection wrappers, REST API,
+  data models, ingestion pipelines, and development environment.
+tags:
+  - neo4j
+  - python
+  - rest-api
+  - data-ingestion
+  - graph-database
+  - neomodel
+seoPrimaryKeyword: neo4j python integration
+seoSecondaryKeywords:
+  - neo4j rest api
+  - graph data ingestion
+  - neomodel data modeling
+seoOptimized: true
 ---
-
 
 # supreme-court-neo: Technical Overview and Implementation Notes
 
