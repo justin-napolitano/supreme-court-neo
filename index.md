@@ -1,13 +1,13 @@
 ---
 slug: github-supreme-court-neo
-title: Python Framework for Neo4j Graph Database with REST API and Data Ingestion
+title: Technical Overview of Supreme Court Neo4j Project
 repo: justin-napolitano/supreme-court-neo
 githubUrl: https://github.com/justin-napolitano/supreme-court-neo
 generatedAt: '2025-11-23T09:42:39.538442Z'
 source: github-auto
 summary: >-
-  Technical overview of a Python-based Neo4j integration including connection wrappers, REST API,
-  data models, ingestion pipelines, and development environment.
+  Explore the implementation details and architecture of a Python-based Neo4j
+  project for graph data management and REST API access.
 tags:
   - neo4j
   - python
@@ -15,19 +15,29 @@ tags:
   - data-ingestion
   - graph-database
   - neomodel
-seoPrimaryKeyword: neo4j python integration
+  - flask
+  - data ingestion
+  - graph processing
+  - docker
+seoPrimaryKeyword: python neo4j graph database
 seoSecondaryKeywords:
-  - neo4j rest api
-  - graph data ingestion
-  - neomodel data modeling
+  - neo4j connectivity
+  - flask rest api
+  - data modeling
+  - csv ingestion
+  - graphml import
+  - docker compose
 seoOptimized: true
 topicFamily: datascience
 topicFamilyConfidence: 0.9
 topicFamilyNotes: >-
-  The post focuses on data ingestion pipelines, ETL processes, data modeling for Neo4j graph
-  databases, and batch processing with Python, which closely aligns with the 'Datascience' family's
-  description of data analysis projects and ETL pipelines. While it involves API and development
-  environment elements, the core is managing and processing complex datasets.
+  The post focuses on data ingestion pipelines, ETL processes, data modeling for
+  Neo4j graph databases, and batch processing with Python, which closely aligns
+  with the 'Datascience' family's description of data analysis projects and ETL
+  pipelines. While it involves API and development environment elements, the
+  core is managing and processing complex datasets.
+kind: project
+id: github-supreme-court-neo
 ---
 
 # supreme-court-neo: Technical Overview and Implementation Notes
