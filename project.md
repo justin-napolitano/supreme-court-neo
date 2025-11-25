@@ -7,8 +7,8 @@ githubUrl: https://github.com/justin-napolitano/supreme-court-neo
 generatedAt: '2025-11-24T21:36:32.824Z'
 source: github-auto
 summary: >-
-  Explore a Python project that combines Neo4j with Flask for managing graph
-  data through a REST API and data ingestion pipelines.
+  Explore a Python project that combines Neo4j with Flask for managing graph data through a REST API
+  and data ingestion pipelines.
 tags:
   - flask
   - neo4j
@@ -26,8 +26,8 @@ seoSecondaryKeywords:
   - flask rest api
   - data pipeline automation
 seoOptimized: true
-topicFamily: null
-topicFamilyConfidence: null
+topicFamily: datascience
+topicFamilyConfidence: 0.9
 kind: project
 entryLayout: project
 showInProjects: true
@@ -126,4 +126,5 @@ neo4jAPI/
 ---
 
 *Note: Some credentials and connection details are placeholders or hardcoded for development and should be secured or parameterized for production.*
+
 
