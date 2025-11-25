@@ -1,20 +1,31 @@
 ---
 slug: github-supreme-court-neo
 id: github-supreme-court-neo
-title: supreme-court-neo
+title: Integrating Neo4j with Flask for Graph Data Management
 repo: justin-napolitano/supreme-court-neo
 githubUrl: https://github.com/justin-napolitano/supreme-court-neo
 generatedAt: '2025-11-24T21:36:32.824Z'
 source: github-auto
 summary: >-
-  A Python-based project integrating Neo4j graph database functionalities with
-  Flask REST API endpoints and data ingestion pipelines. It provides tools for
-  managing graph data, including node creation, querying, and CSV/GraphML data
-  uploads.
-tags: []
-seoPrimaryKeyword: ''
-seoSecondaryKeywords: []
-seoOptimized: false
+  Explore a Python project that combines Neo4j with Flask for managing graph
+  data through a REST API and data ingestion pipelines.
+tags:
+  - flask
+  - neo4j
+  - docker
+  - pyspark
+  - neomodel
+  - rest api
+  - data ingestion
+seoPrimaryKeyword: flask neo4j integration
+seoSecondaryKeywords:
+  - python graph database
+  - docker compose setup
+  - neo4j data models
+  - csv data ingestion
+  - flask rest api
+  - data pipeline automation
+seoOptimized: true
 topicFamily: null
 topicFamilyConfidence: null
 kind: project
